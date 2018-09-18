@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -28,8 +33,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 
-	"github.com/palantir/go-generate/gogenerate"
-	"github.com/palantir/go-generate/gogenerate/config"
+	"github.com/sniperkit/snk.fork.palantir-go-generate/gogenerate"
+	"github.com/sniperkit/snk.fork.palantir-go-generate/gogenerate/config"
 )
 
 func TestRun(t *testing.T) {

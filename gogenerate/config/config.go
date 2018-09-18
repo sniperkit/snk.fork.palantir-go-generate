@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,8 +20,8 @@
 package config
 
 import (
-	"github.com/palantir/go-generate/gogenerate"
-	"github.com/palantir/go-generate/gogenerate/config/internal/v0"
+	"github.com/sniperkit/snk.fork.palantir-go-generate/gogenerate"
+	"github.com/sniperkit/snk.fork.palantir-go-generate/gogenerate/config/internal/v0"
 )
 
 type ProjectConfig v0.ProjectConfig

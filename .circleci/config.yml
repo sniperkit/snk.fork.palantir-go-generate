@@ -1,5 +1,8 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 working_dir: &working_dir
-  working_directory: /go/src/github.com/palantir/go-generate
+  working_directory: /go/src/github.com/sniperkit/snk.fork.palantir-go-generate
 
 darwin-linux-no-cgo: &darwin-linux-no-cgo
   <<: *working_dir
